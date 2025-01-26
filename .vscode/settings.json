@@ -1,0 +1,13 @@
+{
+    "mypy-type-checker.reportingScope": "workspace",
+    "mypy-type-checker.preferDaemon" : false,   
+    "mypy-type-checker.showNotifications" : "always" ,   
+    "mypy-type-checker.path": [ "C:\\Users\\enrico.sabbadin\\AppData\\Roaming\\Python\\Python313\\Scripts\\mypy.exe"],
+    "mypy-type-checker.severity": {
+        "error": "Error",
+        "note": "Information"
+    },
+    "python.analysis.useLibraryCodeForTypes": false,
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": ["--config-file", "mypy.ini"]
+}
