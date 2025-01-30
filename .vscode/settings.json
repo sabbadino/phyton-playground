@@ -1,8 +1,10 @@
 {
     "mypy-type-checker.reportingScope": "workspace",
     "mypy-type-checker.preferDaemon" : false,   
+    //"mypy-type-checker.importStrategy" : "useBundled",
+    "mypy-type-checker.importStrategy": "fromEnvironment",
     "mypy-type-checker.showNotifications" : "always" ,   
-    "mypy-type-checker.path": [ "C:\\Users\\enrico.sabbadin\\AppData\\Roaming\\Python\\Python313\\Scripts\\mypy.exe"],
+    //"mypy-type-checker.path": [ "C:\\Users\\enrico.sabbadin\\AppData\\Roaming\\Python\\Python313\\Scripts\\mypy.exe"],
     "mypy-type-checker.severity": {
         "error": "Error",
         "note": "Information"
