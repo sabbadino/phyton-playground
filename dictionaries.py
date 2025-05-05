@@ -2,7 +2,7 @@ dic : dict[str, str] = {
     "rock" : "scissors", 
     "scissors" : "paper", 
     "paper" : "rock"
-}
+} 
 for key1, value1 in dic.items() :
     print(key1,":",value1) 
 
